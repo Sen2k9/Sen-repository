@@ -3,6 +3,8 @@ Rails.application.routes.draw do
 
   get '/pages/home', to: 'pages#home', as: 'pages_home'
 
+  get 'sen2k9', to: 'pages#sen2k9', as: 'pages_sen2k9'
+
 
   root to: 'pages#home'
 
